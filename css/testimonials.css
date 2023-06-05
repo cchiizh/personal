@@ -1,0 +1,42 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+height: 1000px;
+}
+.testimonials__title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  padding-top: 190px;
+}
+.testimonials__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.testimonials__subtitle {
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 60px;
+  font-weight: 200;
+  width: 900px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.testimonials__photo-wrap{
+display: flex;
+align-items: center;
+padding-bottom: 80px;
+}
+.testimonials__client-photo{
+margin-right: 13px;
+}
+.testimonials__client-info{
+  font-weight: 400;
+  color: #252B42;
+}
